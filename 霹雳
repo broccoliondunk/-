@@ -1,0 +1,8 @@
+[
+  {
+    "name": "PILISHUWU 书源",
+    "urlRule": "https://www.pilishuwu.com/search?keyword={{key}}",
+    "showRule": "@js:var jsoup = org.jsoup.Jsoup.parse(result); jsoup.select(\"script, style, .ads\").remove(); jsoup.select(\".content\").html();",
+    "charset": "UTF-8"
+  }
+]
